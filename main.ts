@@ -1,7 +1,7 @@
 /* //% color=190 weight=100 icon="\uf1ec" block="Motorsteuerung" */
 namespace Motorsteuerung {
     //% blockId=Motorvortrieb
-    //% block="Motor"
+    //% block="Motor %linksKraft %rechtsKraft"
     //% linksKraft.min=-10 linksKraft.max=10
     //% rechtsKraft.min=-10 rechtsKraft.max=10
     export function motorkraft(linksKraft: number, rechtsKraft: number): void {
