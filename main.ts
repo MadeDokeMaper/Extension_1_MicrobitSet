@@ -1,4 +1,4 @@
-//% color=190 weight=100 icon="\uf1ec" block="Motorsteuerung"
+/* //% color=190 weight=100 icon="\uf1ec" block="Motorsteuerung" */
 namespace Motorsteuerung {
     //% blockId=Motorvortrieb
     //% block="Motor"
