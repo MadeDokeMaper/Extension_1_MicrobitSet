@@ -17,8 +17,8 @@ namespace Motorsteuerung {
 	
 }
 namespace Sensorsteuerung{
-	//% blockId=Motorvortrieb
-    	//% block="Motor %linksKraft %rechtsKraft"
-    	//% linksKraft.min=-10 linksKraft.max=10
-    	//% rechtsKraft.min=-10 rechtsKraft.max=10
+	//% blockId=Sensorsteuerung
+    	//% block="Sensorsteuerung"
+    	
+	
 }
