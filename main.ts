@@ -9,6 +9,8 @@ basic.forever(function () {
 			let Antrieb_links
 			let Antrieb_rechts
 			const Minimal_Antrieb
+			Antrieb_links=linksKraft
+			Antrieb_rechts=rechtsKraft
 			pins.analogWritePin(AnalogPin.P1; Math.map(Antrieb_links, 0, 50, Minimal_Antrieb, 1023))
 			pins.analogWritePin(AnalogPin.P2; Math.map(Antrieb_rechts, 0, 50, Minimal_Antrieb, 1023))
 		}
