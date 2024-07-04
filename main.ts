@@ -16,3 +16,6 @@ namespace Motorsteuerung {
 	}
 	
 }
+namespace Sensorsteuerung{
+	
+}
