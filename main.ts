@@ -7,7 +7,7 @@ namespace Motorsteuerung {
     export function motorkraft(linksKraft: number, rechtsKraft: number): void {
         let Antrieb_links
         let Antrieb_rechts
-        const Minimal_Antrieb
+        const Minimal_Antrieb = 300
         Antrieb_links = linksKraft
         Antrieb_rechts = rechtsKraft
         pins.analogWritePin(AnalogPin.P1, Math.map(Antrieb_links, 0, 50, Minimal_Antrieb, 1023))
