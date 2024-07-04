@@ -1,6 +1,6 @@
 {
     "name": "GitHub",
-    "description": "",
+    "description": "1.0",
     "dependencies": {
         "core": "*",
         "radio": "*",
